@@ -1,10 +1,15 @@
-.color1{
- background-color: white;
+.offwhite {
+  background-color: #f7f6ea;
 }
-.color2{
- background-color: black; 
-
+.lightgray {
+  background-color: #abaaaa; 
 }
-.color3{
-  background-color: yellow;
+.darkgray {
+  background-color: #4e4e4e;
+}
+.offblack {
+  background-color: #191919;
+}
+.green {
+  background-color: #40aa45;
 }
