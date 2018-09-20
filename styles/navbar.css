@@ -39,6 +39,7 @@
     transition: height 0.3s;
     background-color: var(--darkgray);
     position: relative;
+    overflow: hidden;
 }
 
 .navbar-secondary.hidden {
@@ -49,6 +50,7 @@
     height: 80%;
     margin: 10px;
     float: left;
+    margin-bottom: 40px;
 }
 
 .navbar-secondary.hidden img {
