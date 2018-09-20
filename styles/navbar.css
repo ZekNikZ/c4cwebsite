@@ -54,25 +54,26 @@
 }
 
 .navbar-secondary img {
-    height: 80%;
+    height: 80px;
     margin: 10px;
     float: left;
     margin-bottom: 40px;
+    transition: height 0.3s;
 }
 
 .navbar-secondary.hidden img {
-    display: none;
+    height: 0;
 }
 
 .navbar-secondary .backlink {
     position: absolute;
     display: block;
     opacity: 1;
-    transition: opacity 0.3s;
+    transition: opacity 0.3s, font-size 0.3s;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 100%;
     color: var(--offwhite);
     text-decoration: none;
-    margin-top: auto;
     padding: 5px;
     bottom: 0;
     right: 0;
@@ -84,7 +85,7 @@
 }
 
 .navbar-secondary.hidden .backlink {
-    display: none;
+    font-size: 0;
 }
 
 /* For Testing Purposes */
