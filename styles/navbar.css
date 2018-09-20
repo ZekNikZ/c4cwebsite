@@ -1,0 +1,88 @@
+:root {
+    --offwhite: #f7f6ea;
+    --lightgray: #abaaaa; 
+    --darkgray: #4e4e4e;
+    --offblack: #191919;
+    --green: #40aa45;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: var(--lightgray);
+    height: 50px;
+    width: 100%;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar a {
+    display: block;
+    color: var(--offblack);
+    text-decoration: none;
+    padding: 0 20px;
+    line-height: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: background-color 0.15s;
+}
+
+.navbar a:hover {
+    background-color: #999999;
+}
+
+.navbar-secondary {
+    height: 100px;
+    transition: height 0.3s;
+    background-color: var(--darkgray);
+    position: relative;
+}
+
+.navbar-secondary.hidden {
+    height: 0;
+}
+
+.navbar-secondary img {
+    height: 80%;
+    margin: 10px;
+    float: left;
+}
+
+.navbar-secondary.hidden img {
+    display: none;
+}
+
+.navbar-secondary .backlink {
+    position: absolute;
+    display: block;
+    opacity: 1;
+    transition: opacity 0.3s;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--offwhite);
+    text-decoration: none;
+    margin-top: auto;
+    padding: 5px;
+    bottom: 0;
+    right: 0;
+    text-align: right;
+}
+
+.navbar-secondary .backlink:hover {
+    text-decoration: underline;
+}
+
+.navbar-secondary.hidden .backlink {
+    display: none;
+}
+
+/* For Testing Purposes */
+body {
+    margin: 0;
+}
+
+body.sticky-navbar {
+    margin-top: 50px;
+}
