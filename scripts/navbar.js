@@ -4,7 +4,7 @@ var navbar = document.getElementsByClassName("navbar-holster")[0];
 var secondaryNavbar = document.getElementsByClassName("navbar-secondary")[0];
 
 var sticky = navbar.offsetTop;
-var secondaryNavbarEntryPoint = 600;
+var secondaryNavbarEntryPoint = 500;
 
 function updateNavbar() {
     if (window.pageYOffset > sticky) {
