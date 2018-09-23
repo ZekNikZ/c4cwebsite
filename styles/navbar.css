@@ -11,7 +11,7 @@
     justify-content: center;
     background-color: var(--lightgray);
     height: 50px;
-    width: 100%;
+    /* width: 100%; */
 }
 
 .sticky {
