@@ -1,4 +1,8 @@
-<!Doctype html> 
+<!Doctype html>
+
+<!--- This script allows other HTML files to be included --->
+<script src="scripts/includeHTML.js"></script>
+
 <html>
   <head>
     <title> C4C </title>
@@ -6,6 +10,14 @@
   </head>
   <body class='color2'>
     <h1 class='color1'>Sample Text </h1>
+
+    <!--- Include the summary section --->
+    <div w3-include-html="summary.html"></div>
+
   </body>
+
+  <!--- Run the includeHTML function to populate content --->
+  <script> includeHTML(); </script>
+	
 
 </html>
