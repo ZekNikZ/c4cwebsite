@@ -1,28 +1,21 @@
+:root {
+    --offwhite: #f7f6ea;
+    --lightgray: #abaaaa; 
+    --darkgray: #4e4e4e;
+    --offblack: #191919;
+    --green: #40aa45;
+}
+
 body {
-  background-color: #abaaaa;
+  background-color: var(--lightgray)
 }
 
 #outer-container {
-  background-color: #f7f6ea;
+  background-color: var(--offwhite)
   width: 70%;
   margin: auto;
   padding: 15px;
-}
-
-.offwhite {
-  background-color: #f7f6ea;
-}
-.lightgray {
-  background-color: #abaaaa;
-}
-.darkgray {
-  background-color: #4e4e4e;
-}
-.offblack {
-  background-color: #191919;
-}
-.green {
-  background-color: #40aa45;
+  border: 1px solid var(--darkgray);
 }
 
 .title {
