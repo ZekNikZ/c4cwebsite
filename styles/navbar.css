@@ -11,7 +11,7 @@
     justify-content: center;
     background-color: var(--lightgray);
     height: 50px;
-    /* width: 100%; */
+    width: 100%;
 }
 
 .sticky {
@@ -31,11 +31,26 @@
     text-align: center;
 }
 
-/* @media(max-width: 600px) { */
+@media(max-width: 600px) {
+    .navbar a {
+        line-height: 50px;
+        padding: 0 10px;
+    }
+}
+
+@media(max-width: 490px) {
     .navbar a {
         line-height: 25px;
+        padding: 0 5px;
     }
-/* } */
+}
+
+@media(max-width: 430px) {
+    .navbar a:nth-child(3) {
+        line-height: 50px;
+    }
+}
+
 
 .navbar a:hover {
     background-color: #999999;
