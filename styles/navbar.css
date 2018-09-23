@@ -31,11 +31,11 @@
     text-align: center;
 }
 
-@media(max-width: 600px) {
+/* @media(max-width: 600px) { */
     .navbar a {
         line-height: 25px;
     }
-}
+/* } */
 
 .navbar a:hover {
     background-color: #999999;
