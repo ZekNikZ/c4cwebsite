@@ -7,15 +7,17 @@
 }
 
 body {
-  background-color: var(--lightgray)
+  background-color: var(--lightgray);
 }
 
 #outer-container {
-  background-color: var(--offwhite)
+  background-color: var(--offwhite);
   width: 70%;
   margin: auto;
   padding: 15px;
   border: 1px solid var(--darkgray);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.25em;
 }
 
 .title {
